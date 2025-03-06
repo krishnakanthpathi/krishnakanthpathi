@@ -30,7 +30,7 @@ I'm a passionate **B.Tech student**, aspiring **Full Stack Web Developer**, and 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="50"/>
 </p>
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/krishnakanthpathi?theme=dark&ext=heatmap)](https://leetcode.com/krishnakanthpathi/)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/krishnakanthpathi?theme=dark&ext=contest)](https://leetcode.com/krishnakanthpathi/)
 
 *Thank you for visiting my GitHub profile! Feel free to explore my repositories and connect with me!* 🚀
 
