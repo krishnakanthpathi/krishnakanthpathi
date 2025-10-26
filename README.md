@@ -7,35 +7,3 @@ I'm a passionate **B.Tech student**, aspiring **Full Stack Web Developer**, and 
 *Thank you for visiting my GitHub profile! Feel free to explore my repositories and connect with me!* 🚀
 ## Database Schema (ER Diagram)
 
-```mermaid
-erDiagram
-    Organization {
-        Integer id PK "Organization ID (PK)"
-        String name
-        String email
-        String slug
-        String status
-        String contact
-        String website
-        String phone
-        Text img
-        String primaryAdminName
-        String primaryAdminEmail
-        String supportEmail
-        String region
-        String timezone
-        String language
-        Integer maxCoordinators
-        Integer pendingRequests
-    }
-
-    User {
-        Integer id PK "User ID (PK)"
-        String name
-        String role
-        Integer organizationId FK "Organization ID (FK)"
-    }
-
-    Organization ||--o{ User : "has"
-```
-
