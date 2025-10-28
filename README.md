@@ -5,5 +5,3 @@ I'm a passionate **B.Tech student**, aspiring **Full Stack Web Developer**, and 
 [![LeetCode Stats](https://leetcard.jacoblin.cool/krishnakanthpathi?theme=dark&ext=heatmap)](https://leetcode.com/krishnakanthpathi/)
 
 *Thank you for visiting my GitHub profile! Feel free to explore my repositories and connect with me!* 🚀
-## Database Schema (ER Diagram)
-
