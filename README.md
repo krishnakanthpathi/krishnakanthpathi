@@ -4,4 +4,12 @@ I'm a passionate **B.Tech student**, aspiring **Full Stack Web Developer**, and 
 
 [![LeetCode Stats](https://leetcard.jacoblin.cool/krishnakanthpathi?theme=dark&ext=heatmap)](https://leetcode.com/krishnakanthpathi/)
 
+## 🛠️ Skills
+
+- **Languages**: Python, JavaScript, TypeScript, Java, C++
+- **Web**: HTML5, CSS3, React, Node.js, Express, Next.js
+- **Databases**: MySQL, PostgreSQL, MongoDB
+- **Tools**: Git, Docker, Linux, VS Code
+- **Other**: Data Structures & Algorithms, REST APIs, Agile/Scrum
+
 *Thank you for visiting my GitHub profile! Feel free to explore my repositories and connect with me!* 🚀
