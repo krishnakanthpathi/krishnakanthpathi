@@ -1,88 +1,105 @@
 <div align="center">
 
 # Krishna Kanth Pathi
+
 ### Full-Stack & AI Systems Engineer
 
-[![LeetCode Knight](https://img.shields.io/badge/LeetCode-Knight-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/krishnakanthpathi/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-krishnakanthpathi-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/krishnakanthpathi)
-[![PyPI](https://img.shields.io/badge/PyPI-lmem-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/lmem/)
-[![Email](https://img.shields.io/badge/Email-krishnakanthpathi%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krishnakanthpathi@gmail.com)
+I build local AI tools, native desktop automation, and web applications.
 
-<p align="center">
-  <b>Building low-latency AI runtimes, operating system primitives, and zero-overhead developer tooling.</b><br>
-  Focused on kernel abstractions, local vector engines, and high-performance distributed systems.
-</p>
+**Persistent memory · System automation · Full-stack development**
 
----
+[GitHub](https://github.com/krishnakanthpathi) · [PyPI](https://pypi.org/project/lmem/) · [LeetCode](https://leetcode.com/krishnakanthpathi/) · [Codeforces](https://codeforces.com/profile/krishnakanthpathi) · [Email](mailto:krishnakanthpathi@gmail.com)
 
 </div>
 
-## ❖ Featured Architectures
+---
 
-### 1. [LightMem (`lmem`)](https://github.com/krishnakanthpathi/lightmem)
-> **Ultra-fast pure-Rust local AI agent persistent memory engine & CLI.**
-- **Core Engine**: Pure-Rust architecture with SQLite WAL + FTS5 BM25 hybrid search, fastembed ONNX vector embeddings, and Native Needle precision reranking.
-- **Intelligence Layer**: Sub-10ms startup, local ONNX SQuAD-2.0 Extractive QA (`minilm-squad2`), nearest-neighbor duplicate resolution, and bidirectional SQLite graph indexing (`[[wikilinks]]`).
-- **Distribution**: Published on PyPI (`pip install lmem`), Cargo, and multi-platform one-line shell installers.
+## About me
 
-### 2. [MacSystem-MCP](https://github.com/krishnakanthpathi/native-assistant-mcp)
-> **Cross-platform workstation automation MCP server for AI agents.**
-- Exposes 70+ native OS capabilities via the Model Context Protocol (MCP).
-- Low-latency window management, process supervision, native AppleScript / SkyLight hooks, system audio control, and hardware event simulation.
+I enjoy building tools that connect AI agents to useful context and real system capabilities—from a Rust memory engine to native desktop automation and web interfaces.
 
-### 3. [LocalShare 2.0](https://github.com/krishnakanthpathi/localshare)
-> **High-throughput AES-256-GCM encrypted peer-to-peer file transfer engine.**
-- Direct socket pipeline and chunked streaming with zero cloud intermediaries.
-- Secure key exchange, automated LAN discovery, and resume-safe data integrity verification.
+My interests include hybrid retrieval, operating systems, networking, and developer tooling. I care about understanding how systems work and turning that understanding into practical applications.
 
-### 4. [QueryPort](https://github.com/krishnakanthpathi/QueryPort)
-> **Headless content platform & developer API engine.**
-- Modular headless CMS with structured schemas, type-safe query APIs, and instant edge delivery.
-- Built with TypeScript, React, Next.js, and PostgreSQL.
+## Selected projects
+
+### [LightMem](https://github.com/krishnakanthpathi/lightmem)
+**Persistent memory for AI agents**
+
+A Rust engine and CLI for storing decisions, retrieving context, and answering questions from saved memories across sessions.
+
+- Hybrid retrieval with SQLite WAL, FTS5 keyword search, and ONNX embeddings.
+- Local extractive QA and configurable Ollama backends.
+- Linked memories, temporal queries, and duplicate/conflict resolution.
+
+**Rust · SQLite · ONNX Runtime · Ollama**
+
+```bash
+pip install lmem
+lmem remember "Use TypeScript for the API layer" -t decision --title "API stack"
+lmem recall "API stack"
+```
+
+[Documentation](https://github.com/krishnakanthpathi/lightmem#readme) · [Python package](https://pypi.org/project/lmem/)
+
+### [Native Assistant MCP](https://github.com/krishnakanthpathi/native-assistant-mcp)
+**Native system tools for AI agents**
+
+A Python FastMCP server exposing macOS and Windows automation through the Model Context Protocol.
+
+- Application, window, file, process, clipboard, and audio controls.
+- Platform-specific modules and native macOS integrations.
+- A web interface for testing tools.
+
+**Python · FastMCP · AppleScript**
+
+### [LocalShare](https://github.com/krishnakanthpathi/localshare)
+**File sharing across the local network**
+
+A peer-to-peer application for sending files and folders directly between devices on the same network.
+
+- UDP discovery and direct TCP transfer streams.
+- Transfer approval, progress tracking, and cancellation.
+- A React interface synchronized through WebSockets.
+
+**Node.js · Express · TCP / UDP · WebSockets · React · Tailwind CSS**
+
+### [QueryPort](https://github.com/krishnakanthpathi/QueryPort)
+**Your portfolio as an API**
+
+A headless portfolio platform that separates content management from presentation.
+
+- Projects, skills, achievements, certifications, and public profiles.
+- JWT and Google OAuth authentication.
+- Filtered leaderboards and CSV reports.
+
+**TypeScript · React · Vite · Express · MongoDB**
+
+**Also building:** [Maxi](https://github.com/krishnakanthpathi/maxi), a background AI assistant with push-to-talk voice input, MCP tools, and pluggable frontends.
 
 ---
 
-## ◈ Technical Arsenal
+## Technical focus
 
-| Domain | Technologies & Frameworks |
+| Area | Technologies & concepts |
 | :--- | :--- |
-| **Systems & AI** | Rust, Python, C++, ONNX Runtime, SQLite (WAL & FTS5), Swift (AVFoundation / SkyLight), Docker |
-| **Backend & Distributed** | TypeScript, Node.js, Express, Next.js, Java, PostgreSQL, Redis, REST APIs, WebSockets |
-| **Frontend & UI** | React, Next.js, HTML5, CSS3, Tailwind CSS |
-| **Core Foundations** | Data Structures & Algorithms, OS Kernel Abstractions, Socket I/O, Memory Layout, Concurrency |
-| **Environment & Tooling** | Linux, macOS, Git, Zsh, Model Context Protocol (MCP) |
+| **AI & memory** | ONNX Runtime, embeddings, hybrid search, extractive QA, Ollama, MCP |
+| **Systems & backend** | Rust, Python, Node.js, Express, REST APIs, TCP / UDP, WebSockets |
+| **Web interfaces** | TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS |
+| **Data & tooling** | SQLite, MongoDB, PostgreSQL, Git, Docker, Linux, macOS |
+| **Foundations** | Data structures, algorithms, concurrency, process scheduling, memory layout, socket I/O |
 
----
+## Learning & problem solving
 
-## ◫ Problem Solving & Competitive Programming
+I’m deepening my understanding of **operating systems** and **retrieval-augmented generation**—how processes, memory, and I/O behave, and how retrieval gives AI systems useful context.
 
-<div align="center">
+I practice algorithms on [LeetCode](https://leetcode.com/krishnakanthpathi/) and [Codeforces](https://codeforces.com/profile/krishnakanthpathi), and keep solutions in [cp-programs](https://github.com/krishnakanthpathi/cp-programs).
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/krishnakanthpathi?theme=dark&font=Ubuntu&ext=heatmap)](https://leetcode.com/krishnakanthpathi/)
+## Get in touch
 
-<p>
-  <b>LeetCode Knight</b> | Active Contender on <b>Codeforces</b> (<a href="https://codeforces.com/profile/krishnakanthpathi">@krishnakanthpathi</a>)
-</p>
-
-</div>
-
----
-
-## ◈ GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=krishnakanthpathi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishnakanthpathi&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=krishnakanthpathi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
+Interested in agent memory, desktop automation, or full-stack applications? Reach me at **[krishnakanthpathi@gmail.com](mailto:krishnakanthpathi@gmail.com)**.
 
 ---
 
 <div align="center">
-  <sub>Engineered by Krishna Kanth Pathi · Powered by <a href="https://github.com/krishnakanthpathi/lightmem">LightMem</a></sub>
+  <sub>Explore a project, try a tool, or open an issue. Feedback is welcome.</sub>
 </div>
