@@ -1,96 +1,93 @@
-<div align="center">
-
-<p><sub>LOCAL AI &nbsp; / &nbsp; DESKTOP AUTOMATION &nbsp; / &nbsp; FULL-STACK ENGINEERING</sub></p>
-
-<h1>Krishna Kanth Pathi</h1>
-
-<h3>I build tools that give AI agents memory and the ability to act.</h3>
-
-<p>From Rust memory engines to native desktop interfaces,<br>I work across the systems and applications that make AI useful.</p>
-
-<p>
-<a href="mailto:krishnakanthpathi@gmail.com">Email</a> &nbsp;·&nbsp;
-<a href="https://pypi.org/project/lmem/">PyPI</a> &nbsp;·&nbsp;
-<a href="https://leetcode.com/krishnakanthpathi/">LeetCode</a> &nbsp;·&nbsp;
-<a href="https://codeforces.com/profile/krishnakanthpathi">Codeforces</a>
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%" alt="Krishna Kanth Pathi — Full-stack and AI systems engineer. Building memory, tools, and interfaces for AI." />
 </p>
 
-</div>
+<p align="center">
+  <a href="#selected-builds">Selected builds</a> &nbsp; / &nbsp;
+  <a href="#engineering-stack">Engineering stack</a> &nbsp; / &nbsp;
+  <a href="#outside-the-editor">Outside the editor</a> &nbsp; / &nbsp;
+  <a href="mailto:krishnakanthpathi@gmail.com">Get in touch ↗</a>
+</p>
+
+<br>
+
+I’m **Krishna**, a full-stack and AI systems engineer. I build software across the layers: local memory engines in Rust, tools that connect agents to the desktop, and the web and native interfaces around them.
+
+My focus is practical: **help agents remember context, take useful actions, and fit into everyday workflows.**
+
+<br>
+
+<p><sub>01 / PROJECT INDEX</sub></p>
+
+## Selected builds
+
+### ❖ LightMem
+
+**Persistent memory, built to run locally.**
+
+A Rust memory engine that gives AI agents context across sessions. Combines SQLite FTS5 and vector search with local extractive question answering, linked memories, and multimodal attachments. Available through a CLI, Python SDK, and native MCP server.
+
+`Rust` `SQLite` `ONNX Runtime` `MCP`
+
+[Explore the source ↗](https://github.com/krishnakanthpathi/lightmem) &nbsp;·&nbsp; [Get it on PyPI ↗](https://pypi.org/project/lmem/)
 
 ---
 
-## What I build
+### ∑ Maxi
 
-I’m a full-stack and AI systems engineer focused on **local memory, agent tools, and desktop experiences**. My projects span the whole path: storing context, retrieving what matters, connecting tools, and putting a usable interface in front of it.
+**A little less clicking.**
 
-- **Memory & retrieval** — persistent context, hybrid search, and local question answering.
-- **Agents & automation** — MCP integrations, native OS controls, and voice workflows.
-- **Applications & infrastructure** — web platforms, APIs, and direct network communication.
+A voice-controlled desktop assistant with a native macOS floating HUD. Connect an OpenAI-compatible model backend and your MCP servers to bring voice input, dictation, and desktop tools into one workflow. Supports optional LightMem integration; available as a macOS beta.
 
-## Featured projects
+`Python` `SwiftUI` `MCP`
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<p><sub>01 / PERSISTENT MEMORY</sub></p>
-<h3><a href="https://github.com/krishnakanthpathi/lightmem">❖ LightMem</a></h3>
-<p>Local memory for AI agents, written in Rust. Store context across sessions and retrieve it through a CLI, Python SDK, or native MCP server.</p>
-<p>Combines SQLite FTS5 and vector search with local extractive QA, linked memories, and multimodal attachments.</p>
-<p><code>Rust</code> <code>SQLite</code> <code>ONNX</code> <code>MCP</code></p>
-<p><a href="https://github.com/krishnakanthpathi/lightmem">Source ↗</a> &nbsp;·&nbsp; <a href="https://pypi.org/project/lmem/">Install from PyPI ↗</a></p>
-</td>
-<td width="50%" valign="top">
-<p><sub>02 / VOICE & DESKTOP</sub></p>
-<h3><a href="https://github.com/krishnakanthpathi/maxi">∑ Maxi</a></h3>
-<p>A voice-controlled desktop assistant with a native macOS floating HUD, an OpenAI-compatible model backend, and tools supplied by MCP servers.</p>
-<p>Push-to-talk input, dictation, and optional LightMem integration. Available as a macOS beta.</p>
-<p><code>Python</code> <code>SwiftUI</code> <code>MCP</code></p>
-<p><a href="https://github.com/krishnakanthpathi/maxi">Source ↗</a> &nbsp;·&nbsp; <a href="https://github.com/krishnakanthpathi/maxi/releases">Releases ↗</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<p><sub>03 / NATIVE AUTOMATION</sub></p>
-<h3><a href="https://github.com/krishnakanthpathi/native-assistant-mcp">Native Assistant MCP</a></h3>
-<p>A Python MCP server that exposes native macOS and Windows capabilities to AI agents.</p>
-<p>Tools for window and workspace control, process management, clipboard access, file operations, and system automation.</p>
-<p><code>Python</code> <code>FastMCP</code> <code>Native APIs</code></p>
-<p><a href="https://github.com/krishnakanthpathi/native-assistant-mcp">Source & tool reference ↗</a></p>
-</td>
-<td width="50%" valign="top">
-<p><sub>04 / LOCAL NETWORKING</sub></p>
-<h3><a href="https://github.com/krishnakanthpathi/localshare">LocalShare</a></h3>
-<p>Peer-to-peer file and folder sharing across devices on the same local network, with a React web interface.</p>
-<p>Automatic peer discovery over UDP, direct TCP transfers, and live progress updates over WebSockets.</p>
-<p><code>Node.js</code> <code>React</code> <code>TCP / UDP</code></p>
-<p><a href="https://github.com/krishnakanthpathi/localshare">Source ↗</a></p>
-</td>
-</tr>
-</table>
-
-### More from my workbench
-
-- **[QueryPort](https://github.com/krishnakanthpathi/QueryPort)** — a headless portfolio platform with APIs for projects, skills, achievements, and public profiles. Built with TypeScript, React, Express, and MongoDB.
-- **[Discord Bot MCP](https://github.com/krishnakanthpathi/discord-bot-mcp)** — an MCP server for Discord messaging, channel management, file attachments, and voice playback.
-
-## Tools I work with
-
-| Area | Technologies |
-| :--- | :--- |
-| Languages | Rust · Python · TypeScript · JavaScript · Java · C++ |
-| Web & APIs | React · Next.js · Node.js · Express · Tailwind CSS |
-| Data & retrieval | SQLite · FTS5 / BM25 · PostgreSQL · MongoDB · Vector search |
-| AI & systems | ONNX Runtime · Ollama · MCP · Docker · Linux · macOS |
-
-## Beyond the projects
-
-I’m interested in how systems work underneath the interface: process scheduling, memory layout, concurrency, and socket I/O. I also practice algorithms and competitive programming on [LeetCode](https://leetcode.com/krishnakanthpathi/) and [Codeforces](https://codeforces.com/profile/krishnakanthpathi), with solutions in [cp-programs](https://github.com/krishnakanthpathi/cp-programs).
+[Explore the source ↗](https://github.com/krishnakanthpathi/maxi) &nbsp;·&nbsp; [Download a release ↗](https://github.com/krishnakanthpathi/maxi/releases)
 
 ---
 
-<div align="center">
+### Tools, networks & web platforms
 
-<p><b>Working on agent memory, desktop tools, or a useful web application?</b></p>
-<p><a href="mailto:krishnakanthpathi@gmail.com">Let’s connect ↗</a></p>
+| Project | What it does | Built with |
+| :--- | :--- | :--- |
+| **[Native Assistant MCP ↗](https://github.com/krishnakanthpathi/native-assistant-mcp)** | Exposes native macOS and Windows capabilities to agents: windows, processes, clipboard, files, and system automation. | Python · FastMCP · Native APIs |
+| **[LocalShare ↗](https://github.com/krishnakanthpathi/localshare)** | Shares files and folders across a local network with UDP discovery, direct TCP transfers, and live progress. | Node.js · React · WebSockets |
+| **[QueryPort ↗](https://github.com/krishnakanthpathi/QueryPort)** | A headless portfolio platform with APIs for projects, skills, achievements, and public profiles. | TypeScript · React · Express · MongoDB |
+| **[Discord Bot MCP ↗](https://github.com/krishnakanthpathi/discord-bot-mcp)** | Connects agents to Discord messaging, channel management, file attachments, and voice playback. | Python · FastMCP · discord.py |
 
-</div>
+<br>
+
+<p><sub>02 / TOOLKIT</sub></p>
+
+## Engineering stack
+
+**Languages**<br>
+`Rust` `Python` `TypeScript` `JavaScript` `Java` `C++`
+
+**Interfaces & APIs**<br>
+`React` `Next.js` `Node.js` `Express` `Tailwind CSS` `SwiftUI`
+
+**Storage & retrieval**<br>
+`SQLite` `FTS5 / BM25` `PostgreSQL` `MongoDB` `Vector search`
+
+**AI & systems**<br>
+`ONNX Runtime` `Ollama` `MCP` `Docker` `Linux` `macOS`
+
+<br>
+
+<p><sub>03 / CURIOSITY</sub></p>
+
+## Outside the editor
+
+I like understanding what happens below the application layer: **process scheduling, memory layout, concurrency, and socket I/O**. I’m also exploring local AI runtimes and how to retrieve the right context for an agent.
+
+Algorithms are part of that practice. Find me on [LeetCode ↗](https://leetcode.com/krishnakanthpathi/) and [Codeforces ↗](https://codeforces.com/profile/krishnakanthpathi), or browse my [competitive programming solutions ↗](https://github.com/krishnakanthpathi/cp-programs).
+
+<br>
+
+---
+
+<p align="center">
+  <sub>HAVE SOMETHING IN MIND?</sub><br><br>
+  <b>Let’s build something useful.</b><br><br>
+  <a href="mailto:krishnakanthpathi@gmail.com">krishnakanthpathi@gmail.com ↗</a>
+</p>
