@@ -1,136 +1,96 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&height=190&color=0:0d1117,100:30363d&text=Krishna%20Kanth%20Pathi&fontColor=f0f6fc&fontSize=40&fontAlignY=42&desc=FULL-STACK%20%26%20AI%20SYSTEMS%20ENGINEER&descSize=14&descAlignY=65" alt="Krishna Kanth Pathi — Full-Stack & AI Systems Engineer" />
+<p><sub>LOCAL AI &nbsp; / &nbsp; DESKTOP AUTOMATION &nbsp; / &nbsp; FULL-STACK ENGINEERING</sub></p>
 
-<br><br>
+<h1>Krishna Kanth Pathi</h1>
 
-**Local AI. Native automation. Full-stack applications.**
+<h3>I build tools that give AI agents memory and the ability to act.</h3>
 
-I build the memory engines, workstation tools, and interfaces that make AI agents practical and fast.
+<p>From Rust memory engines to native desktop interfaces,<br>I work across the systems and applications that make AI useful.</p>
 
-<br>
-
-<a href="mailto:krishnakanthpathi@gmail.com"><kbd>　Email　</kbd></a>
-&nbsp;
-<a href="https://pypi.org/project/lmem/"><kbd>　PyPI　</kbd></a>
-&nbsp;
-<a href="https://leetcode.com/krishnakanthpathi/"><kbd>　LeetCode (Knight)　</kbd></a>
-&nbsp;
-<a href="https://codeforces.com/profile/krishnakanthpathi"><kbd>　Codeforces　</kbd></a>
+<p>
+<a href="mailto:krishnakanthpathi@gmail.com">Email</a> &nbsp;·&nbsp;
+<a href="https://pypi.org/project/lmem/">PyPI</a> &nbsp;·&nbsp;
+<a href="https://leetcode.com/krishnakanthpathi/">LeetCode</a> &nbsp;·&nbsp;
+<a href="https://codeforces.com/profile/krishnakanthpathi">Codeforces</a>
+</p>
 
 </div>
 
-<br>
+---
 
-## Selected work
+## What I build
+
+I’m a full-stack and AI systems engineer focused on **local memory, agent tools, and desktop experiences**. My projects span the whole path: storing context, retrieving what matters, connecting tools, and putting a usable interface in front of it.
+
+- **Memory & retrieval** — persistent context, hybrid search, and local question answering.
+- **Agents & automation** — MCP integrations, native OS controls, and voice workflows.
+- **Applications & infrastructure** — web platforms, APIs, and direct network communication.
+
+## Featured projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-<sub>01 / AGENT MEMORY</sub>
-
-<h3><a href="https://github.com/krishnakanthpathi/lightmem">LightMem</a></h3>
-
-<p>Deterministic local memory engine for AI agents. Pure-Rust runtime with SQLite WAL mode + FTS5 BM25 hybrid search, ONNX vector embeddings, and zero-overhead graph indexing.</p>
-
-<p>Sub-10ms cold start, local SQuAD-2.0 extractive QA, temporal queries, and cross-session persistence.</p>
-
-<p><code>Rust</code> <code>SQLite</code> <code>ONNX</code> <code>Ollama</code></p>
-
-<a href="https://github.com/krishnakanthpathi/lightmem">Explore source →</a>
-&nbsp;·&nbsp;
-<a href="https://pypi.org/project/lmem/"><code>pip install lmem</code> →</a>
-
+<p><sub>01 / PERSISTENT MEMORY</sub></p>
+<h3><a href="https://github.com/krishnakanthpathi/lightmem">❖ LightMem</a></h3>
+<p>Local memory for AI agents, written in Rust. Store context across sessions and retrieve it through a CLI, Python SDK, or native MCP server.</p>
+<p>Combines SQLite FTS5 and vector search with local extractive QA, linked memories, and multimodal attachments.</p>
+<p><code>Rust</code> <code>SQLite</code> <code>ONNX</code> <code>MCP</code></p>
+<p><a href="https://github.com/krishnakanthpathi/lightmem">Source ↗</a> &nbsp;·&nbsp; <a href="https://pypi.org/project/lmem/">Install from PyPI ↗</a></p>
 </td>
 <td width="50%" valign="top">
-
-<sub>02 / DESKTOP AUTOMATION</sub>
-
-<h3><a href="https://github.com/krishnakanthpathi/native-assistant-mcp">Native Assistant MCP</a></h3>
-
-<p>Native macOS and Windows capabilities exposed to AI agents through the Model Context Protocol (MCP).</p>
-
-<p>70+ native OS capabilities across window management, process supervision, native AppleScript / SkyLight hooks, and audio control.</p>
-
-<p><code>Python</code> <code>FastMCP</code> <code>AppleScript</code></p>
-
-<a href="https://github.com/krishnakanthpathi/native-assistant-mcp">Explore source →</a>
-
+<p><sub>02 / VOICE & DESKTOP</sub></p>
+<h3><a href="https://github.com/krishnakanthpathi/maxi">∑ Maxi</a></h3>
+<p>A voice-controlled desktop assistant with a native macOS floating HUD, an OpenAI-compatible model backend, and tools supplied by MCP servers.</p>
+<p>Push-to-talk input, dictation, and optional LightMem integration. Available as a macOS beta.</p>
+<p><code>Python</code> <code>SwiftUI</code> <code>MCP</code></p>
+<p><a href="https://github.com/krishnakanthpathi/maxi">Source ↗</a> &nbsp;·&nbsp; <a href="https://github.com/krishnakanthpathi/maxi/releases">Releases ↗</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-<sub>03 / NETWORKING</sub>
-
-<h3><a href="https://github.com/krishnakanthpathi/localshare">LocalShare</a></h3>
-
-<p>High-throughput peer-to-peer file and folder transfer engine over direct socket connections on local networks.</p>
-
-<p>AES-256-GCM symmetric encryption, LAN discovery, direct TCP streams, and real-time WebSocket progress.</p>
-
-<p><code>Node.js</code> <code>React</code> <code>TCP / UDP</code></p>
-
-<a href="https://github.com/krishnakanthpathi/localshare">Explore source →</a>
-
+<p><sub>03 / NATIVE AUTOMATION</sub></p>
+<h3><a href="https://github.com/krishnakanthpathi/native-assistant-mcp">Native Assistant MCP</a></h3>
+<p>A Python MCP server that exposes native macOS and Windows capabilities to AI agents.</p>
+<p>Tools for window and workspace control, process management, clipboard access, file operations, and system automation.</p>
+<p><code>Python</code> <code>FastMCP</code> <code>Native APIs</code></p>
+<p><a href="https://github.com/krishnakanthpathi/native-assistant-mcp">Source & tool reference ↗</a></p>
 </td>
 <td width="50%" valign="top">
-
-<sub>04 / FULL-STACK PLATFORM</sub>
-
-<h3><a href="https://github.com/krishnakanthpathi/QueryPort">QueryPort</a></h3>
-
-<p>Headless content platform and developer portfolio API. Manage professional engineering content centrally with type-safe APIs.</p>
-
-<p>Modular schemas, structured project management, role-based auth, filtered leaderboards, and edge delivery.</p>
-
-<p><code>TypeScript</code> <code>React</code> <code>Express</code> <code>MongoDB</code></p>
-
-<a href="https://github.com/krishnakanthpathi/QueryPort">Explore source →</a>
-
+<p><sub>04 / LOCAL NETWORKING</sub></p>
+<h3><a href="https://github.com/krishnakanthpathi/localshare">LocalShare</a></h3>
+<p>Peer-to-peer file and folder sharing across devices on the same local network, with a React web interface.</p>
+<p>Automatic peer discovery over UDP, direct TCP transfers, and live progress updates over WebSockets.</p>
+<p><code>Node.js</code> <code>React</code> <code>TCP / UDP</code></p>
+<p><a href="https://github.com/krishnakanthpathi/localshare">Source ↗</a></p>
 </td>
 </tr>
 </table>
 
-<sub>Also building <a href="https://github.com/krishnakanthpathi/maxi"><b>Maxi</b></a> — a background AI assistant with push-to-talk voice input, MCP tools, and pluggable frontends.</sub>
+### More from my workbench
 
-<br>
+- **[QueryPort](https://github.com/krishnakanthpathi/QueryPort)** — a headless portfolio platform with APIs for projects, skills, achievements, and public profiles. Built with TypeScript, React, Express, and MongoDB.
+- **[Discord Bot MCP](https://github.com/krishnakanthpathi/discord-bot-mcp)** — an MCP server for Discord messaging, channel management, file attachments, and voice playback.
 
-## Toolbox
+## Tools I work with
 
-**Languages**
+| Area | Technologies |
+| :--- | :--- |
+| Languages | Rust · Python · TypeScript · JavaScript · Java · C++ |
+| Web & APIs | React · Next.js · Node.js · Express · Tailwind CSS |
+| Data & retrieval | SQLite · FTS5 / BM25 · PostgreSQL · MongoDB · Vector search |
+| AI & systems | ONNX Runtime · Ollama · MCP · Docker · Linux · macOS |
 
-`Rust`　`Python`　`TypeScript`　`JavaScript`　`Java`　`C++`
+## Beyond the projects
 
-**Web & data**
-
-`React`　`Next.js`　`Node.js`　`Express`　`Tailwind CSS`　`SQLite (WAL & FTS5)`　`PostgreSQL`　`MongoDB`
-
-**AI & systems**
-
-`ONNX Runtime`　`Ollama`　`Model Context Protocol (MCP)`　`Hybrid Search (BM25 + Vector)`　`Docker`　`Linux`　`macOS`
-
-<br>
-
-## Currently exploring
-
-- **Operating systems** — kernel abstractions, process scheduling, memory layout, concurrency, and socket I/O.
-- **AI runtimes & retrieval** — embeddings, local extractive QA, and persistent agent context.
-- **Algorithms & complexity** — **LeetCode Knight** and active contender on [Codeforces](https://codeforces.com/profile/krishnakanthpathi), with solutions cataloged in [cp-programs](https://github.com/krishnakanthpathi/cp-programs).
-
-<br>
+I’m interested in how systems work underneath the interface: process scheduling, memory layout, concurrency, and socket I/O. I also practice algorithms and competitive programming on [LeetCode](https://leetcode.com/krishnakanthpathi/) and [Codeforces](https://codeforces.com/profile/krishnakanthpathi), with solutions in [cp-programs](https://github.com/krishnakanthpathi/cp-programs).
 
 ---
 
 <div align="center">
 
-**Have an idea around AI tools, automation, or web applications?**
-
-[Let’s connect →](mailto:krishnakanthpathi@gmail.com)
-
-<br>
-
-<sub>Krishna Kanth Pathi · Memory / Automation / Applications</sub>
+<p><b>Working on agent memory, desktop tools, or a useful web application?</b></p>
+<p><a href="mailto:krishnakanthpathi@gmail.com">Let’s connect ↗</a></p>
 
 </div>
